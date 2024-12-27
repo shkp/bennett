@@ -7,8 +7,8 @@ A version of Andrej Karpathy's nanogpt trained on public domain works of Jane Au
 
 Run 1: After 4000 epochs with the full context (~25K lines of text) 
 
-![alt text](image-3.png)
+![alt text](assets/image-3.png)
 
 Run 2: After 5000 epochs with the shortened context (~5K lines of text) 
 
-![alt text](image-4.png)
+![alt text](assets/image-4.png)
