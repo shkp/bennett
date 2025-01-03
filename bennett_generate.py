@@ -1,7 +1,7 @@
 # Import required libraries
 import torch  # Main PyTorch library for deep learning
 import torch.nn as nn  # Neural network modules from PyTorch
-from torch.nn import functional as F  # Functional interface for neural network operations
+from torch.nn import functional as F  # Functional interface for neural network operationsben
 from ModelConfig import ModelConfig as cfg  # Custom configuration class for model parameters
 
 # Set up device configuration

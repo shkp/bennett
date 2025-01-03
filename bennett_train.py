@@ -6,9 +6,9 @@ import os  # Operating system interface for file operations
 from ModelConfig import ModelConfig as cfg  # Custom configuration class for model parameters
 
 # Set up directories and files for model checkpoints and logging
-checkpoint_dir = 'checkpoints-austen-5k'  # Directory to store model checkpoints
+checkpoint_dir = 'checkpoints-austen-128'  # Directory to store model checkpoints
 os.makedirs(checkpoint_dir, exist_ok=True)  # Create checkpoint directory if it doesn't exist
-log_file = 'meta/austen-5k-run.txt'  # File to log training progress
+log_file = 'meta/austen-128-run.txt'  # File to log training progress
 
 # Set up device and random seed
 device = cfg.get_device()  # Get computing device (CPU/GPU) from config

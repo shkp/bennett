@@ -3,7 +3,7 @@ import torch
 
 class ModelConfig:
     # Model architecture - Altering this will mean you need to retrain the whole model
-    n_embd = 32
+    n_embd = 128
     n_head = 6
     n_layer = 6
     block_size = 256
@@ -13,7 +13,7 @@ class ModelConfig:
     batch_size = 64
     max_iters = 5000
     eval_interval = 50
-    learning_rate = 3e-2
+    learning_rate = 3e-4
     eval_iters = 100
 
     # Generation parameters
